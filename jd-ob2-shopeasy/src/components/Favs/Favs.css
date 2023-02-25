@@ -1,0 +1,30 @@
+.favs {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contFavs {
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 420px) {
+    .contFavs {
+        padding-top: 50%;
+        padding-bottom: 38%;
+        column-gap: 0px;
+        row-gap: 30px;
+    }
+}
